@@ -56,12 +56,22 @@ public class PackagePanel : BasePanel
         {
             Destroy(scrollContent.GetChild(i).gameObject);
         }
+        PackageLocalItem firstItem = null;
+        int count = 0;
         foreach (PackageLocalItem localData in GameManager.Instance.GetSortPackageLocalData())
         {
             Transform PackageUIItem = Instantiate(PackageUIItemPrefab.transform, scrollContent) as Transform;
             PackageCell packageCell = PackageUIItem.GetComponent<PackageCell>();
             // 关键：把本地数据和父面板传给格子，否则格子不会填充名称和图片
             packageCell.Refresh(localData, this);
+            if (firstItem == null) firstItem = localData;
+            count++;
+        }
+
+        // 自动显示第一个物品（若存在），保证右侧 DetailPanel 在打开时有内容
+        if (firstItem != null)
+        {
+            ShowDetail(firstItem);
         }
 
     }
@@ -174,5 +184,24 @@ public class PackagePanel : BasePanel
     private void OnDetail()
     {
         print(">>>>> OnDetail");
+    }
+
+    // Called by PackageCell when a cell is clicked to display detail info
+    public void ShowDetail(PackageLocalItem item)
+    {
+        if (UIDetailPanel == null)
+        {
+            Debug.LogWarning("PackagePanel.ShowDetail: UIDetailPanel is null", this);
+            return;
+        }
+
+        PackageDetail detail = UIDetailPanel.GetComponent<PackageDetail>();
+        if (detail == null)
+        {
+            Debug.LogWarning("PackagePanel.ShowDetail: PackageDetail component not found on UIDetailPanel", UIDetailPanel);
+            return;
+        }
+
+        detail.Refresh(item, this);
     }
 }

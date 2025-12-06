@@ -26,70 +26,70 @@ MonoBehaviour:
     name: Juncus
     description: Spartina is a salt-tolerant coastal grass that stabilizes sediments,
       prevents erosion, and provides habitat in tidal marshes.
-    imagePath: Sprites/Vegetation/Spartina
+    imagePath: Sprites/Vegetation/Juncus
   - id: 2
     categrory: 0
     type: 0
     name: Salicornia
     description: Spartina is a salt-tolerant coastal grass that stabilizes sediments,
       prevents erosion, and provides habitat in tidal marshes.
-    imagePath: Sprites/Vegetation/Spartina
+    imagePath: Sprites/Vegetation/Salicornia
   - id: 3
     categrory: 0
     type: 0
     name: Distichlis
     description: Spartina is a salt-tolerant coastal grass that stabilizes sediments,
       prevents erosion, and provides habitat in tidal marshes.
-    imagePath: Sprites/Vegetation/Spartina.jpeg
+    imagePath: Sprites/Vegetation/Distichlis
   - id: 4
     categrory: 0
     type: 0
     name: Limonium
     description: Spartina is a salt-tolerant coastal grass that stabilizes sediments,
       prevents erosion, and provides habitat in tidal marshes.
-    imagePath: Sprites/Vegetation/Spartina.jpeg
+    imagePath: Sprites/Vegetation/Limonium
   - id: 5
     categrory: 0
     type: 0
     name: Scirpus
     description: Spartina is a salt-tolerant coastal grass that stabilizes sediments,
       prevents erosion, and provides habitat in tidal marshes.
-    imagePath: Sprites/Vegetation/Spartina.jpeg
+    imagePath: Sprites/Vegetation/Scirpus
   - id: 6
     categrory: 0
     type: 1
     name: Rhizophora
     description: Spartina is a salt-tolerant coastal grass that stabilizes sediments,
       prevents erosion, and provides habitat in tidal marshes.
-    imagePath: Sprites/Vegetation/Spartina.jpeg
+    imagePath: Sprites/Vegetation/Rhizophora
   - id: 7
     categrory: 0
     type: 1
     name: Avicennia
     description: Spartina is a salt-tolerant coastal grass that stabilizes sediments,
       prevents erosion, and provides habitat in tidal marshes.
-    imagePath: Sprites/Vegetation/Spartina.jpeg
+    imagePath: Sprites/Vegetation/Avicennia
   - id: 8
     categrory: 0
     type: 1
     name: Laguncularia
     description: Spartina is a salt-tolerant coastal grass that stabilizes sediments,
       prevents erosion, and provides habitat in tidal marshes.
-    imagePath: Sprites/Vegetation/Spartina.jpeg
+    imagePath: Sprites/Vegetation/Laguncularia
   - id: 9
     categrory: 0
     type: 1
     name: Bruguiera
     description: Spartina is a salt-tolerant coastal grass that stabilizes sediments,
       prevents erosion, and provides habitat in tidal marshes.
-    imagePath: Sprites/Vegetation/Spartina.jpeg
+    imagePath: Sprites/Vegetation/Bruguiera
   - id: 10
     categrory: 0
     type: 1
     name: Sonneratia
     description: Spartina is a salt-tolerant coastal grass that stabilizes sediments,
       prevents erosion, and provides habitat in tidal marshes.
-    imagePath: Sprites/Vegetation/Spartina.jpeg
+    imagePath: Sprites/Vegetation/Sonneratia
   - id: 11
     categrory: 0
     type: 2

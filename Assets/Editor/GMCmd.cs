@@ -20,7 +20,7 @@ public class GMCmd
     {
         //保存数据
         PackageLocalData.Instance.items = new List<PackageLocalItem>();
-        for (int i = 1; i < 11; i++)
+        for (int i = 0; i < 10; i++)
         {
             PackageLocalItem packageLocalItem = new()
             {
